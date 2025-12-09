@@ -55,4 +55,4 @@ const server = app.listen(port, () => {
   console.log(`Launching server on http://localhost:${port}`);
 });
 
-module.exports = server; 
+module.exports = app;
